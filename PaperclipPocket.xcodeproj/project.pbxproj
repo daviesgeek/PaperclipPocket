@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155A5468EFD68CCB2CDEDC50 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F20EBB4E96F0936143E5F2 /* ChatsView.swift */; };
+		5A048A5962D239BE0A1D024E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1D1E18628DE4D1868A664 /* SettingsView.swift */; };
+		64AAC0FA87745E778B9641D6 /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692334794BFF5616DA255FE /* KeychainStorage.swift */; };
+		8D1DCCF230803B4C005C07F8 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 8D1DCCF130803B4C005C07F8 /* AppIcon.icon */; };
+		D670E94C850D67B9459EE7AA /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB13C935E8F4DA4CBBFEDE2 /* TasksView.swift */; };
+		DC963838A5E498BB6988B63B /* PaperclipPocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09153ADFF7EABB51E44D96AA /* PaperclipPocketApp.swift */; };
+		EBC31460FE4754E1524F3980 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9687959E031C2D1B83733C0 /* AppStore.swift */; };
+		F6D729337968BBF443672028 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700F319C1B6D8F960813441 /* Models.swift */; };
+		F93BD126F01151FB48452510 /* PaperclipAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441D33B6570D654F8DB902A /* PaperclipAPI.swift */; };
+		FB90684E69A6C96ED866993E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8119A4784A182D847E337D77 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09153ADFF7EABB51E44D96AA /* PaperclipPocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperclipPocketApp.swift; sourceTree = "<group>"; };
+		5441D33B6570D654F8DB902A /* PaperclipAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperclipAPI.swift; sourceTree = "<group>"; };
+		5AB13C935E8F4DA4CBBFEDE2 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		629E82BC595D81DE9A634DDA /* PaperclipPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperclipPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F20EBB4E96F0936143E5F2 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		8119A4784A182D847E337D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8700F319C1B6D8F960813441 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8D1DCCF130803B4C005C07F8 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		E692334794BFF5616DA255FE /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
+		E8CE4721331CF75E9478C7F2 /* PaperclipPocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaperclipPocket.entitlements; sourceTree = "<group>"; };
+		F0C1D1E18628DE4D1868A664 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F9687959E031C2D1B83733C0 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE832DE65DB5CA7507F7EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C45FD35CB0F9C5F764F070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629E82BC595D81DE9A634DDA /* PaperclipPocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58492F208780FA5EF3807E8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AB13C935E8F4DA4CBBFEDE2 /* TasksView.swift */,
+				74F20EBB4E96F0936143E5F2 /* ChatsView.swift */,
+				F0C1D1E18628DE4D1868A664 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EE67047A4B2648DDBB08231 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E692334794BFF5616DA255FE /* KeychainStorage.swift */,
+				5441D33B6570D654F8DB902A /* PaperclipAPI.swift */,
+				F9687959E031C2D1B83733C0 /* AppStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BF657CFE8769AAE6C0570C29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8700F319C1B6D8F960813441 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF8D0BD4B75E8C2C174692A5 /* PaperclipPocket */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DCCF130803B4C005C07F8 /* AppIcon.icon */,
+				09153ADFF7EABB51E44D96AA /* PaperclipPocketApp.swift */,
+				BF657CFE8769AAE6C0570C29 /* Models */,
+				6EE67047A4B2648DDBB08231 /* Services */,
+				58492F208780FA5EF3807E8F /* Views */,
+				8119A4784A182D847E337D77 /* Assets.xcassets */,
+				E8CE4721331CF75E9478C7F2 /* PaperclipPocket.entitlements */,
+			);
+			path = PaperclipPocket;
+			sourceTree = "<group>";
+		};
+		DF891E785808226D241F246E = {
+			isa = PBXGroup;
+			children = (
+				CF8D0BD4B75E8C2C174692A5 /* PaperclipPocket */,
+				00C45FD35CB0F9C5F764F070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* PaperclipPocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F8F9F8952853417A205521 /* Build configuration list for PBXNativeTarget "PaperclipPocket" */;
+			buildPhases = (
+				72A8017E75795FC05F78F54C /* Sources */,
+				BEE832DE65DB5CA7507F7EF9 /* Frameworks */,
+				963488E8A773A44C9A5DC523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperclipPocket;
+			productName = PaperclipPocket;
+			productReference = 629E82BC595D81DE9A634DDA /* PaperclipPocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F960DB182D53C4ECD26546AA /* Build configuration list for PBXProject "PaperclipPocket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF891E785808226D241F246E;
+			productRefGroup = 00C45FD35CB0F9C5F764F070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* PaperclipPocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963488E8A773A44C9A5DC523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90684E69A6C96ED866993E /* Assets.xcassets in Resources */,
+				8D1DCCF230803B4C005C07F8 /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A8017E75795FC05F78F54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC963838A5E498BB6988B63B /* PaperclipPocketApp.swift in Sources */,
+				F6D729337968BBF443672028 /* Models.swift in Sources */,
+				64AAC0FA87745E778B9641D6 /* KeychainStorage.swift in Sources */,
+				F93BD126F01151FB48452510 /* PaperclipAPI.swift in Sources */,
+				EBC31460FE4754E1524F3980 /* AppStore.swift in Sources */,
+				D670E94C850D67B9459EE7AA /* TasksView.swift in Sources */,
+				155A5468EFD68CCB2CDEDC50 /* ChatsView.swift in Sources */,
+				5A048A5962D239BE0A1D024E /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E0DDAF384B911BF23BC77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaperclipPocket/PaperclipPocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Paperclip Pocket";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.PaperclipPocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877A6BA951A2EA0025A2ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		959134B361DD7E21ADEA3164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1EFC270D4D6011185E1BD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaperclipPocket/PaperclipPocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Paperclip Pocket";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.PaperclipPocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F8F9F8952853417A205521 /* Build configuration list for PBXNativeTarget "PaperclipPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0DDAF384B911BF23BC77ED /* Debug */,
+				A1EFC270D4D6011185E1BD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F960DB182D53C4ECD26546AA /* Build configuration list for PBXProject "PaperclipPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877A6BA951A2EA0025A2ABE8 /* Debug */,
+				959134B361DD7E21ADEA3164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

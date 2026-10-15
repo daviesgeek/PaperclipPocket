@@ -1,0 +1,9 @@
+.DS_Store
+*.p8
+.env
+.env.*
+!.env.example
+**/data/
+**/DerivedData/
+**/xcuserdata/
+**/.build/
