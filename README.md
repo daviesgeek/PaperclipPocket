@@ -46,7 +46,7 @@ npx paperclipai instance settings:experimental:update \
   --payload-json '{"enableAgentChat":true}'
 ```
 
-## 2. Set up APNs push notifications (optional)
+## 2. Set up APNs push notifications (optional, still work in progress 🚧)
 
 The iPhone app **cannot reliably poll Paperclip while suspended**. The relay therefore runs on an always-on machine, checks the configured user's unread chats and issue threads every 15 seconds by default, and contacts Apple directly.
 
