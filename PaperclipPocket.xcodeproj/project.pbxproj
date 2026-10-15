@@ -199,7 +199,7 @@
 				CODE_SIGN_ENTITLEMENTS = PaperclipPocket/PaperclipPocket.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ;
+				DEVELOPMENT_TEAM = asdf;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Paperclip Pocket";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -263,7 +263,7 @@
 				CODE_SIGN_ENTITLEMENTS = PaperclipPocket/PaperclipPocket.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ;
+				DEVELOPMENT_TEAM = asdf;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Paperclip Pocket";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
